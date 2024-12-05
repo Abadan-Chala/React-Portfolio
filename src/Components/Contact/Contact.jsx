@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Let's Talk</h1>
-                <p>I'm currently available to take on a new projects, so feel free to contact me</p>
+                <p>I'm currently available to take on a new projects, so feel free to contact me and I will assist you by my profession and with great pleasure </p>
                 <div className="contact-details">
                     <div className="contact-detail">
                        <img src={mail} alt="" /> <p>abadanafchala@gmil.com</p>
