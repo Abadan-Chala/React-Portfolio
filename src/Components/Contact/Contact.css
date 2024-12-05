@@ -94,3 +94,20 @@
     font-size: 20px;
 
 }
+.contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-submit:hover{
+transform: scale(1.1);
+transition: 0.3s;
+background: linear-gradient(264deg, #2b1c06 -5.09%, #510d70 106.28%);
+
+}
