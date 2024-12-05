@@ -25,3 +25,15 @@
     background: linear-gradient(267deg, #cac2ba 0.36%, #5b2b68);
 
 }
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
