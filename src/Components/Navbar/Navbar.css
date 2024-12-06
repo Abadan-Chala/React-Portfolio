@@ -44,6 +44,7 @@
 .nav-mob-open{
     width: 45px;
     height: auto;
+    display: none;
 }
 .nav-mob-close{
     width: 28px;
@@ -61,7 +62,6 @@
         display: block;
         position: fixed;
         right: 30px;
-        display: none;
     }
     .nav-mob-close{
         display: block;
