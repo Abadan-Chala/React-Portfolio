@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "3337c235-63e5-4ef8-93a6-794442f75f66");
+        formData.append("access_key", "72be62fa-6b2c-4f91-bbac-51c07202e45f");
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -26,7 +26,7 @@ const Contact = () => {
         }).then((res) => res.json());
     
         if (res.success) {
-          console.log("Success", res);
+          alert(res.message);
         }
       };
 
@@ -52,14 +52,14 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form action="" onSubmit={onSubmit} className="contact-right">
+            <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor="">Your Name</label>
                 <input type="text" placeholder='Enter your name' name='name' />
                 <label htmlFor="">Your email</label>
                 <input type="email" placeholder='Enter your email' name='email'/>
                 <label htmlFor="">Write your message here</label>
                 <textarea name="message" rows="8" placeholder='Enter your message'></textarea>
-                <button type='button' className="contact-submit">Submit now</button>
+                <button type='submit' className="contact-submit">Submit now</button>
             </form>
         </div>
       
