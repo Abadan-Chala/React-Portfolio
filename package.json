@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^18.3.1",
+    "react-scroll": "^1.9.0",
+    "react-scrollspy": "^3.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

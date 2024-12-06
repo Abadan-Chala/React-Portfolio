@@ -37,3 +37,7 @@
     width: 100px;
     height: auto;
 }
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
