@@ -65,3 +65,18 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+@media(max-width:768px){
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+
+    }
+}

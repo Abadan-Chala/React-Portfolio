@@ -145,32 +145,31 @@
         width: 200px;
         height: auto;
         transition: 0.5s;
-        border-radius: 100%;
+        border-radius: 25px;
     }
     .about-left img:hover{
-        /* display: none; */
         width: 200px;
         height: auto;
-        transition: 0.5s;
-        border-radius: 25px;
+        transition: 0.5s; 
+        border-radius: 100%;
     }
     .about-para{
         font-size: 18px;
         line-height: 32px;
     }
     .about-skill{
-        gap: 20px;
+        gap: 10px;
         align-items: center;
     }
     .about-skill p{
         font-size: 20px;
     }
     .about-skill hr{
-        height: 6px;
+        height: 7px;
     }
     .my-achieve{
         font-size: 21px;
-      padding: 0 8px;
+        padding: 0 8px;
     }
     .about-achievements{
         justify-content: space-between;
@@ -179,12 +178,12 @@
         gap: 10px;
     }
     .about-achievement h1{
-        font-size: 34px;
+        font-size: 32px;
         font-weight: 700;
     }
     .about-achievement p{
         text-align: center;
-        font-size: 16px;
+        font-size: 15px;
     }
    
 }
