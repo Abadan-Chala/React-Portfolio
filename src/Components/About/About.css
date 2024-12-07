@@ -29,15 +29,14 @@
     gap: 80px;
 }
 .about-left img{
-    
     width: 400px;
     height: auto;
     transition: 0.5s;
-    border-radius: 25px;
+    border-radius: 100%;
 }
 .about-left img:hover{
-    border-radius: 100%;
-    margin-top: 150px;
+    border-radius: 25px;
+    margin-top: 50px;
     width: 400px;
     height: auto;
     border: 2px solid hsl(303, 89%, 31%);
@@ -103,7 +102,7 @@
     transition: 0.5s;
 }
 .about-achievement h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
     background-clip: text;
@@ -111,14 +110,14 @@
     -webkit-text-fill-color: transparent;
 }
 .about-achievement p{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .about-skill:hover{
     transform: scale(1.05);
     transition: 0.3s;
     color: rgb(82, 18, 99);
-    cursor: pointer;
+    cursor: pointer;;
 }
 .about-achievement:hover{
     transform: scale(1.12);
