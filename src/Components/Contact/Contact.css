@@ -111,3 +111,15 @@ transition: 0.3s;
 background: linear-gradient(264deg, #2b1c06 -5.09%, #510d70 106.28%);
 
 }
+@media(max-width:768px){
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
