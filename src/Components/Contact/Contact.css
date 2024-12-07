@@ -122,4 +122,27 @@ background: linear-gradient(264deg, #2b1c06 -5.09%, #510d70 106.28%);
         font-size: 50px;
         font-weight: 600;
     }
+    .contact-title img{
+        width: 50px;
+        margin-right: -45px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 50px;
+    }
+    .contact-left p{
+        font-size: 18px;
+        max-width: 400px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right label{
+        font-size: 25px;
+    }
 }
