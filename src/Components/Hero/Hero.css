@@ -5,7 +5,7 @@
     gap: 35px;
 }
 .hero img{
-    border-radius: 50px;
+    border-radius: 30px;
     margin-top: 100px;
     width: 400px;
     height: auto;
@@ -13,18 +13,19 @@
     transition: 0.5s;
 }
 .hero img:hover{
-    border: 2px solid rgb(44, 7, 145);
+    border: 2px solid rgb(35, 32, 44);
+    border-radius: 100%;
     width: 450px;
     transition: 0.2s;
 }
 .hero h1{
     text-align: center;
     width: 70%;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
 }
 .hero h1 span{
-    background: linear-gradient(270deg, #4f04b1e3 10%, #5a034e 100%);
+    background: linear-gradient(270deg, #581aa8e3 10%, #410b39 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

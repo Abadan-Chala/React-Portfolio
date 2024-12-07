@@ -12,18 +12,16 @@
     font-size: 20px;
 }
 .nav-connect{
-    padding: 20px 40px;
+    padding: 15px 35px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #8d5520 0.36%, #5e1d70);
+    background: linear-gradient(267deg, #7a420d 0.36%, #441a50);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
 }
 .nav-connect:hover{
     transform: scale(1.05);
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
-    background: linear-gradient(267deg, #cac2ba 0.36%, #5b2b68);
-
+    background: linear-gradient(267deg, #25201b 0.36%, #3c0d49);
 }
 .nav-menu li{
     display: flex;
@@ -34,7 +32,7 @@
 .nav-menu li img{
     display: flex;
     margin: auto;
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 .anchor-link{
@@ -47,7 +45,7 @@
     display: none;
 }
 .nav-mob-close{
-    width: 28px;
+    width: 27px;
     height: auto;
     display: none;
 }
