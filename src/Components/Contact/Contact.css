@@ -13,6 +13,10 @@
     padding: 0px 65px;
     font-size: 80px;
     font-weight: 600;
+    background: linear-gradient(270deg, #422803 80%, #500672 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .contact-title img{
     position: absolute;
@@ -76,8 +80,8 @@
     width: 700px;
     height: 78px;
     padding-left: 20px;
-    border-radius: 4px;
-    background: #454546;
+    border-radius: 5px;
+    background: #404046;
     color: #a0a0a0;
     font-family: sans-serif;
     font-size: 20px;
@@ -87,7 +91,7 @@
     width: 650px;
     border: none;
     padding: 25px;
-    border-radius: 4px;
+    border-radius: 5px;
     background: #32323c;
     color: #a0a0a0;
     font-family: sans-serif;
@@ -98,9 +102,9 @@
     border: none;
     color: white;
     border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    background: linear-gradient(264deg, #9b5f04 -5.09%, #420c5c 106.28%);
     font-size: 22px;
-    padding: 20px 60px;
+    padding: 15px 40px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
