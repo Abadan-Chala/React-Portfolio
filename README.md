@@ -1,1 +1,1 @@
-This is personal portfolio website by react js / html and css
+This is my personal portfolio website by react js / html and css
